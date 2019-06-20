@@ -486,8 +486,6 @@ declare module 'react-native-gesture-handler/DrawerLayout' {
 
   export type DrawerType = 'front' | 'back' | 'slide';
 
-  export type DrawerLockMode = 'unlocked' | 'locked-closed' | 'locked-open';
-
   export type DrawerKeyboardDismissMode = 'none' | 'on-drag';
 
   export interface DrawerLayoutProperties {
@@ -497,7 +495,6 @@ declare module 'react-native-gesture-handler/DrawerLayout' {
     drawerPosition?: DrawerPosition;
     drawerWidth?: number;
     drawerBackgroundColor?: string;
-    drawerLockMode?: DrawerLockMode;
     keyboardDismissMode?: DrawerKeyboardDismissMode;
     onDrawerClose?: () => void;
     onDrawerOpen?: () => void;
